@@ -1,0 +1,152 @@
+p:first-letter{
+color:lightskyblue;
+font-size: 30px;
+}
+
+section p {
+    text-indent: 30px;
+    line-height:30px;
+    }
+
+    
+h2+p{
+        font-style: italic;
+    }
+
+.flex-2-col{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-item>img{
+    width: 750px;
+    height: 750px;;
+}
+
+
+.tm-box-bg-title:hover{
+   background-color: #87cefa;
+   color: white;
+   font-weight: bold;
+}
+
+.tm-main-nav,
+ #home,
+ section{
+    box-shadow: 0 1px 4px 3px rgba(0, 0, 0, 0.267);
+  }
+
+
+.active .tm-section-title{
+      color: gainsboro;
+      letter-spacing: 5px;
+  }
+
+  section::before {
+    content: ''; 
+    position: absolute;
+    border: 25px solid transparent;
+    border-left: 200px solid #87cefa; 
+    border-top: 4px solid #87cefa;
+   }
+  
+
+  .tm-banner{
+   border:25px solid rgba(0, 0, 0, 0.04);
+   padding: 0px;
+  }
+
+
+  .tm-content-box a{
+    color:black;
+}
+
+  .tm-content-box a:visited{
+    text-decoration: underline;
+}
+
+
+div.padding-medium a:hover{
+   font-weight: bolder;
+   text-decoration: none;
+}
+
+.text::after {
+  position: absolute;
+  top: 10px;
+  content: "New";
+  font-size: 10px;
+  color: red;
+  text-decoration: none;
+}
+
+
+.gallery-container{
+    display: flex;
+    flex-direction:row;
+    grid-template-columns: 400px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap:0px;
+}
+
+.box-work:nth-child(2n){
+background-color:rgba(0, 0, 0, 0.05);
+}
+
+.box-work{
+    padding: 10px;
+   
+}
+
+.box-work p::first-letter{
+    color:black;
+    font-size: 28px;
+}
+
+.box-work p{
+    text-indent:0px;
+}
+
+.submit-btn {
+    float: right;
+    background-color: white; 
+    color: #87cefa;
+    border: 1px solid #87cefa;
+    border-radius: 0px;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.submit-btn:hover{
+    background-color: #87cefa;
+    color: white;
+    border:  1px solid #87cefa;
+ }
+
+
+  .mandatory-field {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+
+  .mandatory-field input {
+    padding-right: 14px;
+  }
+
+  .mandatory-field:after {
+    content: "*";
+    position: absolute;
+    right: 5px;
+    top: +3px;
+    color: red;
+    font-weight: bold;
+    z-index: 5;
+  }
+
+.tm-nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+  }
